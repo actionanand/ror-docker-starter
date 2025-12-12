@@ -4,19 +4,56 @@ A complete Docker setup for Ruby on Rails development with PostgreSQL, Redis, Ng
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Prerequisites](#prerequisites)
-3. [Project Structure](#project-structure)
-4. [Technologies & Services](#technologies--services)
-5. [Initial Setup](#initial-setup)
-6. [Running the Application](#running-the-application)
-7. [Common Commands](#common-commands)
-8. [Development Workflow](#development-workflow)
-9. [Memory & Disk Management](#memory--disk-management)
-10. [Troubleshooting](#troubleshooting)
-11. [Production Deployment](#production-deployment)
+1. [Cloning Guide](#cloning-guide)
+2. [Project Overview](#project-overview)
+3. [Prerequisites](#prerequisites)
+4. [Project Structure](#project-structure)
+5. [Technologies & Services](#technologies--services)
+6. [Initial Setup](#initial-setup)
+7. [Running the Application](#running-the-application)
+8. [Common Commands](#common-commands)
+9. [Development Workflow](#development-workflow)
+10. [Memory & Disk Management](#memory--disk-management)
+11. [Troubleshooting](#troubleshooting)
+12. [Production Deployment](#production-deployment)
 
 ---
+
+## Cloning Guide
+
+1.  Clone only the remote primary HEAD (default: origin/main)
+
+```bash
+git clone <url> --single-branch
+```
+
+2. Only specific branch
+
+```bash
+git clone <url> --branch <branch> --single-branch [<folder>]
+```
+
+```bash
+git clone <url> --branch <branch>
+```
+
+3. Cloning repositories using degit
+
+   - main branch is default.
+
+```bash
+npx degit github:user/repo#branch-name <folder-name>
+```
+
+4. Cloning this project with skeleton
+
+```bash
+git clone https://github.com/actionanand/ror-docker-starter.git --branch 1-skeleton ror-proj-name
+```
+
+```bash
+npx degit github:actionanand/ror-docker-starter#1-skeleton ror-proj-name
+```
 
 ## Project Overview
 
