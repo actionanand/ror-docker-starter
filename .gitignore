@@ -1,0 +1,13 @@
+*.log
+.env
+.env.local
+.env.*.local
+node_modules/
+vendor/
+tmp/
+db/*.sqlite3
+public/assets
+public/packs
+.DS_Store
+.ruby-version
+.bundle
