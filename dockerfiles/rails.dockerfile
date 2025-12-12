@@ -5,6 +5,7 @@ RUN apk add --no-cache \
     build-base \
     postgresql-dev \
         yaml-dev \
+    tzdata \
     yarn \
     git \
     curl \
