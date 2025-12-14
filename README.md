@@ -9,6 +9,7 @@ personal opinions.
 
 This project is taken from [docker-rails-example](https://github.com/nickjj/docker-rails-example)
 Also check [wait-until](https://github.com/nickjj/wait-until/blob/master/wait-until)
+[YouTube Guide](https://www.youtube.com/watch?v=nKiZz8TNHuU) for this project
 
 **This app is using Rails 8.1.1 and Ruby 3.4.7**. The screenshot shows
 `X.X.X` since they get updated regularly:
